@@ -14,6 +14,11 @@ Overview
 ## Requirement
 
 ## Usage
+```
+$ docker run --rm -it \
+        -v /var/run/docker.sock:/var/run/docker.sock \
+        shinyay/emc --help
+```
 
 ## Installation
 
