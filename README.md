@@ -3,6 +3,16 @@
 Overview
 
 ## Description
+### Retrieve CLI binary
+```
+$ curl -L https://github.com/wreulicke/emc/releases/download/v0.0.3/emc_0.0.3_linux_amd64 -o emc
+$ chmod +x emc
+```
+
+### Build Container image
+```
+$ docker build -t shinyay/emc .
+```
 
 ## Demo
 
